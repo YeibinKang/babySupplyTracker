@@ -25,7 +25,7 @@
 1. Clone repository
 
 ```bash
-git clone https://github.com/username/babystock-ios.git
+git clone git@github.com:YeibinKang/baby_products_invetory_ios.git
 ```
 
 2. Install dependencies
