@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		ED1A18732D629928007AAE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED1A18552D629925007AAE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1A185C2D629925007AAE3C;
+			remoteInfo = BabySupplyTracker;
+		};
+		ED1A187D2D629928007AAE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED1A18552D629925007AAE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1A185C2D629925007AAE3C;
+			remoteInfo = BabySupplyTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED1A185D2D629925007AAE3C /* BabySupplyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabySupplyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1A18722D629928007AAE3C /* BabySupplyTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabySupplyTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1A187C2D629928007AAE3C /* BabySupplyTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabySupplyTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ED1A185F2D629925007AAE3C /* BabySupplyTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabySupplyTracker;
+			sourceTree = "<group>";
+		};
+		ED1A18752D629928007AAE3C /* BabySupplyTrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabySupplyTrackerTests;
+			sourceTree = "<group>";
+		};
+		ED1A187F2D629928007AAE3C /* BabySupplyTrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabySupplyTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED1A185A2D629925007AAE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1A186F2D629928007AAE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1A18792D629928007AAE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED1A18542D629925007AAE3C = {
+			isa = PBXGroup;
+			children = (
+				ED1A185F2D629925007AAE3C /* BabySupplyTracker */,
+				ED1A18752D629928007AAE3C /* BabySupplyTrackerTests */,
+				ED1A187F2D629928007AAE3C /* BabySupplyTrackerUITests */,
+				ED1A185E2D629925007AAE3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED1A185E2D629925007AAE3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED1A185D2D629925007AAE3C /* BabySupplyTracker.app */,
+				ED1A18722D629928007AAE3C /* BabySupplyTrackerTests.xctest */,
+				ED1A187C2D629928007AAE3C /* BabySupplyTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED1A185C2D629925007AAE3C /* BabySupplyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1A18862D629928007AAE3C /* Build configuration list for PBXNativeTarget "BabySupplyTracker" */;
+			buildPhases = (
+				ED1A18592D629925007AAE3C /* Sources */,
+				ED1A185A2D629925007AAE3C /* Frameworks */,
+				ED1A185B2D629925007AAE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ED1A185F2D629925007AAE3C /* BabySupplyTracker */,
+			);
+			name = BabySupplyTracker;
+			packageProductDependencies = (
+			);
+			productName = BabySupplyTracker;
+			productReference = ED1A185D2D629925007AAE3C /* BabySupplyTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED1A18712D629928007AAE3C /* BabySupplyTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1A18892D629928007AAE3C /* Build configuration list for PBXNativeTarget "BabySupplyTrackerTests" */;
+			buildPhases = (
+				ED1A186E2D629928007AAE3C /* Sources */,
+				ED1A186F2D629928007AAE3C /* Frameworks */,
+				ED1A18702D629928007AAE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1A18742D629928007AAE3C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED1A18752D629928007AAE3C /* BabySupplyTrackerTests */,
+			);
+			name = BabySupplyTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = BabySupplyTrackerTests;
+			productReference = ED1A18722D629928007AAE3C /* BabySupplyTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED1A187B2D629928007AAE3C /* BabySupplyTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1A188C2D629928007AAE3C /* Build configuration list for PBXNativeTarget "BabySupplyTrackerUITests" */;
+			buildPhases = (
+				ED1A18782D629928007AAE3C /* Sources */,
+				ED1A18792D629928007AAE3C /* Frameworks */,
+				ED1A187A2D629928007AAE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1A187E2D629928007AAE3C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED1A187F2D629928007AAE3C /* BabySupplyTrackerUITests */,
+			);
+			name = BabySupplyTrackerUITests;
+			packageProductDependencies = (
+			);
+			productName = BabySupplyTrackerUITests;
+			productReference = ED1A187C2D629928007AAE3C /* BabySupplyTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED1A18552D629925007AAE3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					ED1A185C2D629925007AAE3C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					ED1A18712D629928007AAE3C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ED1A185C2D629925007AAE3C;
+					};
+					ED1A187B2D629928007AAE3C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ED1A185C2D629925007AAE3C;
+					};
+				};
+			};
+			buildConfigurationList = ED1A18582D629925007AAE3C /* Build configuration list for PBXProject "BabySupplyTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED1A18542D629925007AAE3C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ED1A185E2D629925007AAE3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED1A185C2D629925007AAE3C /* BabySupplyTracker */,
+				ED1A18712D629928007AAE3C /* BabySupplyTrackerTests */,
+				ED1A187B2D629928007AAE3C /* BabySupplyTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED1A185B2D629925007AAE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1A18702D629928007AAE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1A187A2D629928007AAE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED1A18592D629925007AAE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1A186E2D629928007AAE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1A18782D629928007AAE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED1A18742D629928007AAE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1A185C2D629925007AAE3C /* BabySupplyTracker */;
+			targetProxy = ED1A18732D629928007AAE3C /* PBXContainerItemProxy */;
+		};
+		ED1A187E2D629928007AAE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1A185C2D629925007AAE3C /* BabySupplyTracker */;
+			targetProxy = ED1A187D2D629928007AAE3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED1A18842D629928007AAE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED1A18852D629928007AAE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED1A18872D629928007AAE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabySupplyTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = L4PQC3JFTU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeibinkang.BabySupplyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED1A18882D629928007AAE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabySupplyTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = L4PQC3JFTU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeibinkang.BabySupplyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED1A188A2D629928007AAE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4PQC3JFTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeibinkang.BabySupplyTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabySupplyTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BabySupplyTracker";
+			};
+			name = Debug;
+		};
+		ED1A188B2D629928007AAE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4PQC3JFTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeibinkang.BabySupplyTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabySupplyTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BabySupplyTracker";
+			};
+			name = Release;
+		};
+		ED1A188D2D629928007AAE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4PQC3JFTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeibinkang.BabySupplyTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabySupplyTracker;
+			};
+			name = Debug;
+		};
+		ED1A188E2D629928007AAE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4PQC3JFTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeibinkang.BabySupplyTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabySupplyTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED1A18582D629925007AAE3C /* Build configuration list for PBXProject "BabySupplyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1A18842D629928007AAE3C /* Debug */,
+				ED1A18852D629928007AAE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1A18862D629928007AAE3C /* Build configuration list for PBXNativeTarget "BabySupplyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1A18872D629928007AAE3C /* Debug */,
+				ED1A18882D629928007AAE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1A18892D629928007AAE3C /* Build configuration list for PBXNativeTarget "BabySupplyTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1A188A2D629928007AAE3C /* Debug */,
+				ED1A188B2D629928007AAE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1A188C2D629928007AAE3C /* Build configuration list for PBXNativeTarget "BabySupplyTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1A188D2D629928007AAE3C /* Debug */,
+				ED1A188E2D629928007AAE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED1A18552D629925007AAE3C /* Project object */;
+}
