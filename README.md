@@ -4,28 +4,23 @@
 ## Tech Stack
 * iOS 15.0+
 * Swift 5.9
-* Firebase Realtime Database
+* CoreData Database
 * SwiftUI
 * MVVM Architecture
 
 ## Current Features
 * Basic inventory management
 * Low stock notifications
-* Firebase real-time sync
+* CoreData database Architecture
 * MVVM implementation
-
-## Upcoming Features
-
-* Multi-device synchronization
-* Analytics dashboard
-* Google Custom Search API integration
+* Connection with Google Shopping Link for low stock items
 
 ## Installation
 
 1. Clone repository
 
 ```bash
-git clone git@github.com:YeibinKang/baby_products_invetory_ios.git
+git clone git@github.com:YeibinKang/babySupplyTracker.git
 ```
 
 2. Install dependencies
