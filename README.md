@@ -37,11 +37,23 @@ A new parent, a seasoned pro, or somewhere in between!
 <img src="https://github.com/user-attachments/assets/c04c8f0b-3528-419e-80df-ea3a38a2f0f5" style="width: 25%; height:auto;">
 <img src="https://github.com/user-attachments/assets/31ebcdd9-2260-4aa0-8b24-2c4161004f69" style="width: 25%; height:auto;">
 <img src="https://github.com/user-attachments/assets/bbcad6a5-112a-46be-9c53-add09a149576" style="width: 25%; height:auto;">
+<img src="https://github.com/user-attachments/assets/08868a24-55cb-4220-bae4-6a399784c1e4" style="width: 25%; height:auto;">
 
 
-#### 
+#### Inventory Update Screen
+> Users can add a new item and delete it from a list
+
+<img src="https://github.com/user-attachments/assets/bbcad6a5-112a-46be-9c53-add09a149576" style="width: 25%; height:auto;">
+<img src="https://github.com/user-attachments/assets/3c72e654-fcda-4f80-ba1e-fdc1dbf597e3" style="width: 25%; height:auto;">
+<img src="https://github.com/user-attachments/assets/15c283ad-e8ba-48f9-8083-c870f7950fb7" style="width: 25%; height:auto;">
+
+#### Google Shopping Connection
+> Users can visit the Google Shopping website for low stock items with an easy click
+<img src="https://github.com/user-attachments/assets/f0e62f68-8f2f-4981-a958-da47c07d26f0" style="width: 25%; height:auto;">
+<img src="https://github.com/user-attachments/assets/4d86d26b-510b-4c26-be32-e6b1beda11d8" style="width: 25%; height:auto;">
 
 ## Demo Video
+[Watch the video](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7302491720829517824?compact=1)
 
 
 ## Installation
